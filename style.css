@@ -1,0 +1,34 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body {
+    background: #fd746c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container {
+    background-color: white;
+  text-align: center;
+  border: 1px solid black;
+   margin-left: 35%;
+   margin-right: 35%;
+   margin-top: 20%;
+    border-radius: 5px;
+    font-size: 20px;
+  box-shadow: 2px 2px 3px black;
+}
+#get_joke {
+    border-radius: 10px;
+    background-color: #68D7FF;
+    border: 1px solid grey;
+}
+#get_joke:hover {
+    cursor: pointer;
+    background-color: lightskyblue;
+ 
+}
+#get_joke:active {
+    box-shadow: 1px 1px 1px blue;
+ 
+}
